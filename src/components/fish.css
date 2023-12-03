@@ -1,0 +1,18 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.verses {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35vh;
+  left: 50vw;
+  text-align: center;
+  font-size: 2rem;
+  word-break: keep-all;
+}

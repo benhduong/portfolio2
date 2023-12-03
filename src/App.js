@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Icons from "./components/icons";
+import Fish from "./components/fish";
+
+import { ChakraProvider, Container, Text, Box, Fade } from "@chakra-ui/react";
 
 function App() {
+  const [onload] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <ChakraProvider>
+      <Fade in={onload}>
+        <Container
+          fontFamily="Poppins"
+          mx={{ base: 2, md: 10 }}
+          my={{ base: 4, md: 10 }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Box>
+            <Text fontSize={{ base: "3xl", md: "5xl" }}>benjamin duong</Text>
+            <Text fontSize={{ base: "xl", md: "3xl" }}>
+              computer science @ brown university
+            </Text>
+            <Icons />
+          </Box>
+        </Container>
+        <Container mx={{ base: 2, md: 10 }} my={{ base: 4, md: 10 }}>
+          <Text>Please watch my fish:</Text>
+          <Text>---</Text>
+        </Container>
+        <Fish />
+      </Fade>
+    </ChakraProvider>
   );
 }
 
