@@ -1,8 +1,7 @@
 import React, { useState } from "react";
+import { ChakraProvider, Container, Text, Box, Fade } from "@chakra-ui/react";
 import Icons from "./components/icons";
 import Fish from "./components/fish";
-
-import { ChakraProvider, Container, Text, Box, Fade } from "@chakra-ui/react";
 
 function App() {
   const [onload] = useState(true);

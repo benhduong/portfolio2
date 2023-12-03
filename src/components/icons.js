@@ -1,7 +1,5 @@
-import { HStack } from "@chakra-ui/react";
+import { HStack, Box } from "@chakra-ui/react";
 import { SocialIcon } from "react-social-icons";
-
-import { Box } from "@chakra-ui/react";
 
 const data = [
   {
