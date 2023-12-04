@@ -15,11 +15,11 @@ const data = [
 
 function Icons() {
   return (
-    <HStack pt={3} pb={7}>
+    <HStack pt={5}>
       {data.map((data) => (
         <Box
           borderRadius={50}
-          _hover={{ "box-shadow": "0px 8px 8px 0px rgba(0, 0, 0, 0.25)" }}
+          _hover={{ "box-shadow": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)" }}
         >
           <SocialIcon
             target="_blank"
