@@ -66,6 +66,10 @@ const Fish = () => {
       ripples.push(new Ripple(p.mouseX, p.mouseY));
     };
 
+    p.windowResized = () => {
+      p.resizeCanvas(window.innerWidth, window.innerHeight * 0.55);
+    };
+
     const shadowColor = "rgba(0,0,0,0.05)";
 
     class Koi {
