@@ -22,10 +22,6 @@ function App() {
             <Icons />
           </Box>
         </Container>
-        <Container mx={{ base: 2, md: 10 }} my={{ base: 4, md: 10 }}>
-          <Text>Please watch my fish:</Text>
-          <Text>---</Text>
-        </Container>
         <Fish />
       </Fade>
     </ChakraProvider>
