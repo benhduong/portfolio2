@@ -17,7 +17,7 @@ function App() {
           <Box>
             <Text fontSize={{ base: "3xl", md: "5xl" }}>benjamin duong</Text>
             <Text fontSize={{ base: "xl", md: "3xl" }}>
-              computer science @ brown university
+              new grad, cs @ brown u
             </Text>
             <Icons />
           </Box>
