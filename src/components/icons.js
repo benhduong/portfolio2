@@ -9,7 +9,7 @@ const data = [
     url: "https://github.com/benhduong",
   },
   {
-    url: "mailto:benhduong@gmail.com",
+    url: "https://www.amazon.com/b?node=119684904011&pd_rd_w=bncfM&content-id=amzn1.sym.7c6c062a-98cb-45fe-ad03-b8a8a5680ae0:amzn1.sym.7c6c062a-98cb-45fe-ad03-b8a8a5680ae0&pf_rd_p=7c6c062a-98cb-45fe-ad03-b8a8a5680ae0&pf_rd_r=Q115ESQAW3JB30VD4H0G&pd_rd_wg=Rcmi8&pd_rd_r=1121b42d-e2d7-4954-9b85-80aa80f032ca&qid=1765528475&ref_=sxts_snpl_1_0_7c6c062a-98cb-45fe-ad03-b8a8a5680ae0",
   },
 ];
 

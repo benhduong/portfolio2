@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChakraProvider, Container, Text, Box, Fade } from "@chakra-ui/react";
-import Icons from "./components/icons";
 import Fish from "./components/fish";
+import Icons from "./components/icons";
+import { TITLE, SUBTITLE } from "./constants";
 
 function App() {
   const [onload] = useState(true);
@@ -15,10 +16,8 @@ function App() {
           my={{ base: 4, md: 10 }}
         >
           <Box>
-            <Text fontSize={{ base: "3xl", md: "5xl" }}>benjamin duong</Text>
-            <Text fontSize={{ base: "xl", md: "3xl" }}>
-              new grad, cs @ brown u
-            </Text>
+            <Text fontSize={{ base: "3xl", md: "5xl" }}>{TITLE}</Text>
+            <Text fontSize={{ base: "xl", md: "3xl" }}>{SUBTITLE}</Text>
             <Icons />
           </Box>
         </Container>
